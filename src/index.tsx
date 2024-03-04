@@ -1,8 +1,8 @@
 const {
   useFilterScreenChildren,
-} = require("expo-router/src/layouts/withLayoutContext");
-const { useContextKey, useRouteNode } = require("expo-router/src/Route");
-const { useSortedScreens } = require("expo-router/src/useScreens");
+} = require("expo-router/build/layouts/withLayoutContext");
+const { useContextKey, useRouteNode } = require("expo-router/build/Route");
+const { useSortedScreens } = require("expo-router/build/useScreens");
 
 import { Navigator } from "expo-router";
 import React, { useCallback, useState } from "react";

@@ -1,7 +1,7 @@
 {
-  "name": "@bacons/expo-router-top-tabs",
+  "name": "@naresh/expo-router-v3-top-tabs",
   "version": "0.1.0",
-  "description": "Top tabs with optional header in Expo Router",
+  "description": "Top tabs with optional header in Expo Router v3",
   "main": "build/index.js",
   "scripts": {
     "build": "expo-module build",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/evanbacon/expo-router-top-tabs.git"
+    "url": "https://github.com/Nareshj7/expo-router-v3-top-tabs"
   },
   "peerDependencies": {
     "react-native": "*",
@@ -27,7 +27,7 @@
     "react-native-web",
     "typescript"
   ],
-  "author": "Evan Bacon",
+  "author": "Naresh Babu",
   "license": "MIT",
   "dependencies": {
     "react-native-collapsible-tab-view": "2.0.2",
