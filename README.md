@@ -1,14 +1,16 @@
-# @bacons/expo-router-top-tabs
+# @nareshj7/expo-router-v3-top-tabs
 
-Wraps `react-native-collapsible-tab-view` and adds support for [Expo Router](https://expo.github.io/router/docs).
+Wraps `react-native-collapsible-tab-view` and adds support for [Expo Router v3](https://expo.github.io/router/docs).
 
 ## Add the package to your npm dependencies
 
 ```
-yarn add @bacons/expo-router-top-tabs react-native-reanimated
+yarn add @nareshj7/expo-router-v3-top-tabs react-native-reanimated
 ```
 
-- Setup Reanimated in the `babel.config.js`. See [here](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/installation#babel-plugin) for more info.
+- Setup Reanimated in the `babel.config.js`. See [here](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/#step-2-add-reanimateds-babel-plugin) for more info.
+
+- If you face 'setPage' undefined error while using try installing `react-native-pager-view` and `react-native-tab-view`.
 
 ## Usage
 
@@ -18,7 +20,7 @@ Example in Layout Route:
 // app/(tabs)/_layout.tsx
 
 import { Text, View } from "react-native";
-import { TopTabs } from "@bacons/expo-router-top-tabs";
+import { TopTabs } from "@nareshj7/expo-router-v3-top-tabs";
 
 export default function CustomLayout() {
   return (
@@ -41,7 +43,7 @@ Usage in child routes:
 // app/(tabs)/index.tsx
 
 import { Animated } from "react-native";
-import { useScrollProps } from "@bacons/expo-router-top-tabs";
+import { useScrollProps } from "@nareshj7/expo-router-v3-top-tabs";
 
 export default function Screen() {
   const props = useScrollProps();
