@@ -1,6 +1,6 @@
 {
   "name": "@nareshj7/expo-router-v3-top-tabs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Top tabs with optional header in Expo Router v3",
   "main": "build/index.js",
   "scripts": {
