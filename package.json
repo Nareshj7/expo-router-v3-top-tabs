@@ -17,9 +17,9 @@
     "url": "https://github.com/Nareshj7/expo-router-v3-top-tabs"
   },
   "peerDependencies": {
+    "expo-router": "~0.0.33",
     "react-native": "*",
-    "react-native-reanimated": "~2.9.1",
-    "expo-router": "~0.0.33"
+    "react-native-reanimated": "~2.9.1"
   },
   "keywords": [
     "expo-router",
@@ -30,14 +30,14 @@
   "author": "Naresh Babu",
   "license": "MIT",
   "dependencies": {
+    "@react-navigation/material-top-tabs": "6.6.10",
     "react-native-collapsible-tab-view": "2.0.2",
-    "@react-navigation/material-top-tabs": "6.3.0",
-    "react-native-pager-view": "6.0.1",
-    "react-native-tab-view": "^3.3.0"
+    "react-native-pager-view": "6.2.3",
+    "react-native-tab-view": "^3.5.2"
   },
   "devDependencies": {
-    "expo-router": "^1.5.3",
     "expo-module-scripts": "^2.0.0",
+    "expo-router": "^1.5.3",
     "react-native": "0.68.2"
   }
 }
